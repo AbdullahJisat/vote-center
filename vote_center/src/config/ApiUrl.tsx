@@ -1,6 +1,6 @@
 import axios from "axios";
 
 const ApiUrl = axios.create({
-    baseURL: "https://localhost/vote_center_api/public/api/",
+    baseURL: "https://localhost/vote-center/public/api/",
 });
 export default ApiUrl;
